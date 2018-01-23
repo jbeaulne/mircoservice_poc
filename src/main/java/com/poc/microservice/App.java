@@ -4,6 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import com.poc.microservice.properties.MicroServiceProperties;
+import com.poc.microservice.rest.dao.PersonDAOCass;
 
 /**
  * Hello world!
@@ -21,6 +22,7 @@ public class App
     			MicroServiceProperties.DB_HOSTNAME = args[0];
     			MicroServiceProperties.DB_PORTNUM = Integer.parseInt(args[1]);
     			SpringApplication.run(App.class,args);
+    			
     		}
         
     }
