@@ -1,4 +1,4 @@
-package com.homedepot.poc.microservice;
+package com.poc.microservice;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
